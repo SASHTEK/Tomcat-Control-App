@@ -22,8 +22,9 @@ Tomcat Control App is a Windows Forms application designed to manage Apache Tomc
   	
 2.	**Open the solution in Visual Studio:**
   - Navigate to the cloned directory and open TomcatControlApp.sln.
-3.	**Restore NuGet packages:**
+3.	**Restore NuGet packages and Certificates:**
  - In Visual Studio, restore the required NuGet packages by right-clicking on the solution and selecting Restore NuGet Packages
+ - Create a new test certificate if required (Properties > Signing > Create Test Certificate)
 4.	**Build the project:**
  - In Visual Studio, build the solution by clicking on Build > Build Solution or pressing Ctrl+Shift+B.
 5.	**Run the application:**
